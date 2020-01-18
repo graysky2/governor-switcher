@@ -6,7 +6,8 @@ Customize the two timer units under `init` to change the start time for switchin
 * Use ondemand at 10 PM ever day.
 * Use performance starting at 1 PM M-F and starting at 5 AM on the weekend.
 
-The provided Makefile can be used to install.
+# how to install
+Use the provided `PKGBUILD` (Arch) or `Makefile` to install.
 
 ```
 $ make
