@@ -2,6 +2,7 @@
 Description=Switch to performance
 
 [Timer]
+OnBootSec=10sec
 OnCalendar=Mon..Fri 13:00
 OnCalendar=Sat,Sun 05:00
 Persistent=true

@@ -3,7 +3,7 @@ Description=Switch to ondemand
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/governor-switcher o
+ExecStart=/bin/sh -c 'echo ondemand > /sys/devices/system/cpu/cpufreq/policy0/scaling_governor'
 
 [Install]
 WantedBy=default.target

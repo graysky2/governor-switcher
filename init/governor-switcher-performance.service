@@ -3,7 +3,7 @@ Description=Switch to performance
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/governor-switcher p
+ExecStart=/bin/sh -c 'echo performance > /sys/devices/system/cpu/cpufreq/policy0/scaling_governor'
 
 [Install]
 WantedBy=default.target
