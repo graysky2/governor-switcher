@@ -1,0 +1,9 @@
+[Unit]
+Description=Switch to ondemand
+
+[Timer]
+OnCalendar=22:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

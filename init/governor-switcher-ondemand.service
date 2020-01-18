@@ -1,0 +1,9 @@
+[Unit]
+Description=Switch to ondemand
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/governor-switcher o
+
+[Install]
+WantedBy=default.target

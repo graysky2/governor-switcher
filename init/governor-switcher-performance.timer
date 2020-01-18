@@ -1,0 +1,10 @@
+[Unit]
+Description=Switch to performance
+
+[Timer]
+OnCalendar=Mon..Fri 13:00
+OnCalendar=Sat,Sun 05:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

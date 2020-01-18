@@ -1,0 +1,9 @@
+[Unit]
+Description=Switch to performance
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/governor-switcher p
+
+[Install]
+WantedBy=default.target
